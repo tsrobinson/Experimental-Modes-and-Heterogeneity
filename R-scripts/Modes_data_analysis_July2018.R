@@ -30,25 +30,24 @@ library(dplyr)
 ## set up the lab, online.mturk, online.uk comparison data
 ##--------#---------#---------#---------#---------#---------#---------#---------
 rm(list=ls())
+setwd("~/GitHub/Experimental-Modes-and-Heterogeneity")
 #setwd("C:/Users/Denise Laroze Prehn/Dropbox/CESS-Santiago/Archive/Modes/Tax Cheating Qualtrics Online Experiment")
 #setwd("C:/Users/Denise Laroze P/Dropbox/CESS-Santiago/Archive/Modes/Tax Cheating Qualtrics Online Experiment")
 
-mturk.ds<-read.csv("data/Mturk_DS_Sept2017.csv") #
+mturk.ds<-read.csv("Data/Mturk_DS_Sept2017.csv") #
 
-cess.online.panel <- read.csv("data/CESS_Panel_DS_Feb2018.csv")
+cess.online.panel <- read.csv("Data/CESS_Panel_DS_Feb2018.csv")
 cess.online.panel<-cess.online.panel[cess.online.panel$correct>0, ]
 
-cess.online.stgo <- read.csv("data/CESS_Panel_DS_Stgo_2017.csv")
-
-lab.online.sync <- read.csv("data/lab_online_sync_edited.csv")
+lab.online.sync <- read.csv("Data/lab_online_sync_edited.csv")
 
 
-baseline.uk<-read.csv("data/baseline_uk.csv")
+baseline.uk<-read.csv("Data/baseline_uk.csv")
 baseline.uk<-baseline.uk[baseline.uk$auditrate<30, ] # Only sessions with 0 and 20% audit
 
 
 fig.path<-"R-Script/Figures"
-v<-"July2018"
+v<-"Oct2018"
 
 
 
@@ -70,10 +69,6 @@ mturk.ds$age2<-mturk.ds$age
 mturk.ds$age2[mturk.ds$age=="false"]<-NA
 mturk.ds$Age<-as.numeric(levels(mturk.ds$age2))[mturk.ds$age2]
 
-
-cess.online.stgo$age2<-cess.online.stgo$age
-cess.online.stgo$age2[cess.online.stgo$age=="false"]<-NA
-cess.online.stgo$Age<-as.numeric(levels(cess.online.stgo$age2))[cess.online.stgo$age2]
 
 # Indentifying and Eliminating non-consistent risk preferences
 # Eliminating observations null risk and integrity ofvservations 
@@ -108,7 +103,6 @@ consist.risk<-function(df,name.risk){
 lab.online.sync<-consist.risk(lab.online.sync, "risk")
 mturk.ds<-consist.risk(mturk.ds, "risk")
 cess.online.panel<-consist.risk(cess.online.panel, "risk")
-cess.online.stgo<-consist.risk(cess.online.stgo, "risk")
 
 
 #rename variables
@@ -170,10 +164,6 @@ cess.online.panel$DictGive.normal <- cess.online.panel$DictGive/1000
 cess.online.panel$total.integrity.normal <- (cess.online.panel$total.integrity)/40
 cess.online.panel$risk.pref.normal <- (cess.online.panel$risk.pref.consist)/10 
 
-cess.online.stgo$DictGive.normal <- cess.online.stgo$DictGive/1000
-cess.online.stgo$total.integrity.normal <- (cess.online.stgo$total.integrity)/40
-cess.online.stgo$risk.pref.normal <- (cess.online.stgo$risk.pref.consist)/10
-
 
 ### adapting Baseline uk data
 m1 <- as.matrix(baseline.uk[, c("publictransport","taxes", "drivingfast", "moneyfound",                 
@@ -204,7 +194,7 @@ baseline.uk$Gender_lab[baseline.uk$gender==1]<-"M"
 lab.online.sync$ncorrectret <- lab.online.sync$correct
 mturk.ds$ncorrectret<-mturk.ds$correct
 cess.online.panel$ncorrectret<-cess.online.panel$correct
-cess.online.stgo$ncorrectret<-cess.online.stgo$correct
+
 
 
 #################################
@@ -216,6 +206,7 @@ names(baseline.uk)[names(baseline.uk)=="safechoices"] <- "risk.pref"
 names(baseline.uk)[names(baseline.uk)=="profitret"] <- "prelimGain"
 names(baseline.uk)[names(baseline.uk)=="offerdg"] <- "DictGive"
 names(baseline.uk)[names(baseline.uk)=="Gender_lab"] <- "Gender"
+baseline.uk$auditRate<-baseline.uk$auditrate/100
 
 names(lab.online.sync)[names(lab.online.sync)=="age"] <- "Age"
 names(lab.online.sync)[names(lab.online.sync)=="gender"] <- "Gender"
@@ -227,14 +218,11 @@ names(mturk.ds)[names(mturk.ds)=="taxRate"] <- "taxrate"
 names(cess.online.panel)[names(cess.online.panel)=="age"] <- "Age"
 names(cess.online.panel)[names(cess.online.panel)=="gender"] <- "Gender"
 names(cess.online.panel)[names(cess.online.panel)=="taxRate"] <- "taxrate"
-
-names(cess.online.stgo)[names(cess.online.stgo)=="gender"] <- "Gender"
-names(cess.online.stgo)[names(cess.online.stgo)=="taxRate"] <- "taxrate"
-
+cess.online.panel<-subset(cess.online.panel, !is.na(auditRate))
 
 
 vars<-c( "muID", "ncorrectret" ,"Gender", "Age", "DictGive" ,"DictGive.normal", "total.integrity", "total.integrity.normal", 
-         "risk.pref.normal", "risk.pref", "prelimGain", "report.rate", "treat", "taxrate", "round"
+         "risk.pref.normal", "risk.pref", "prelimGain", "report.rate", "treat", "taxrate", "round", "auditRate"
 )
 o.sync<-lab.online.sync[, vars]
 o.sync$sample<-"Online Lab"
@@ -263,6 +251,8 @@ rm(o.sync, b.s, mt.s, cp.s)
 
 ## Unique Subject Ids
 p.data$muID<-paste0(p.data$sample, p.data$muID)
+
+### Eliminate rows with no information
 
 
 
@@ -297,6 +287,55 @@ print(tbl, type = getOption("xtable.type", "latex"), file = "R-Script/Tables/tre
 
 table(baseline.uk$session)
 length(unique(baseline.uk$session))
+
+
+#######################################
+#### Treatment characteristics
+#######################################
+
+sum.table<-ddply(p.data, c("sample"), summarize,
+                 DG="Yes",
+                 Risk="Yes",
+                 auditrate=as.character(list(unique(auditRate))),
+                 taxrate=as.character(list(unique(taxrate))),
+                 m.report = mean(report.rate, na.rm=T),
+                 n = length(unique(muID))
+                 )
+sum.table
+
+gender.t<-prop.table(table(p.data$sample, p.data$Gender),1)
+gender.t<-as.data.frame(gender.t)
+
+sum.table$pc.female<-gender.t[1:4,3]
+sum.table$pc.male<-gender.t[5:8,3]
+
+place<-nrow(sum.table)+1
+sum.table[place, "sample"]<-"All"
+sum.table[place, "DG"]<-"Yes"
+sum.table[place, "Risk"]<-"Yes"
+sum.table[place, "auditrate"]<-as.character(list(unique(p.data$auditRate)))
+sum.table[place, "taxrate"]<-as.character(list(unique(p.data$taxrate)))
+sum.table[place, "m.report"]<-mean(p.data$report.rate, na.rm=T)
+
+gender<-prop.table(table (p.data$Gender))
+sum.table[place, "pc.female"]<-gender[1]
+sum.table[place, "pc.male"]<-gender[2]
+
+n<-length(unique(p.data$muID))
+sum.table[place, "n"]<-n
+
+
+names(sum.table) <- c('Mode','DG', 'Risk' ,'Audit Rate' ,"Tax Rate", "Report Rate" ,"\\# Subjects", "\\% Female", "\\% Male" )
+
+xt<-xtable(sum.table)
+print(xt, type="latex", file=("R-scripts/summary_table.tex"), floating=FALSE, include.rownames=FALSE)
+
+xt
+
+
+
+
+
 
 
 ##############################
