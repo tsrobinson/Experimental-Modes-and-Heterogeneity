@@ -726,6 +726,45 @@ ggsave(figure, filename = "banded_test_all_vs_mturk.png", device = "png", height
 
 #### Appendix Tables ####
 
+## Table A1
+                               
+sum.table<-ddply(p.data, c("sample"), summarize,
+                 DG="Yes",
+                 Risk="Yes",
+                 auditrate=as.character(list(unique(auditRate))),
+                 taxrate=as.character(list(unique(taxrate))),
+                 m.report = mean(report.rate, na.rm=T),
+                 n = length(unique(muID))
+                 )
+sum.table
+
+gender.t<-prop.table(table(p.data$sample, p.data$Gender),1)
+gender.t<-as.data.frame(gender.t)
+
+sum.table$pc.female<-gender.t[1:4,3]
+sum.table$pc.male<-gender.t[5:8,3]
+
+place<-nrow(sum.table)+1
+sum.table[place, "sample"]<-"All"
+sum.table[place, "DG"]<-"Yes"
+sum.table[place, "Risk"]<-"Yes"
+sum.table[place, "auditrate"]<-as.character(list(unique(p.data$auditRate)))
+sum.table[place, "taxrate"]<-as.character(list(unique(p.data$taxrate)))
+sum.table[place, "m.report"]<-mean(p.data$report.rate, na.rm=T)
+
+gender<-prop.table(table (p.data$Gender))
+sum.table[place, "pc.female"]<-gender[1]
+sum.table[place, "pc.male"]<-gender[2]
+
+n<-length(unique(p.data$muID))
+sum.table[place, "n"]<-n
+
+
+names(sum.table) <- c('Mode','DG', 'Risk' ,'Audit Rate' ,"Tax Rate", "Report Rate" ,"\\# Subjects", "\\% Female", "\\% Male" )
+
+xt<-xtable(sum.table)
+print(xt, type="latex", file=("R-scripts/summary_table.tex"), floating=FALSE, include.rownames=FALSE)
+
 ## Table A2
 
 # Wild cluster bootstrapped procedure
