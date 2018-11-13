@@ -4,8 +4,8 @@
 1. Code - Instructions and Z-tree files for replication of experiments (both online and lab)
 2. Data - CSV and raw exports for each of the four separate experiments
 3. R-scripts - All R code for generation of statistics, tables and figures. Key files:
-  * replication.R - main replication file
-  * dist_diff.R - function (sourced in replication.R) to calculate bootstrapped estimates of differences within CATE bands
+   * replication.R - main replication file
+   * dist_diff.R - function (sourced in replication.R) to calculate bootstrapped estimates of differences within CATE bands
 4. Screenshots - of lab and online experiments
 
 ## Replication R code:
