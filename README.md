@@ -1,4 +1,4 @@
-# Experimental-Modes-and-Heterogeneity
+# Multi-Modes for Detecting Experimental Measurement Error 
 
 ## Contents:
 1. Code - Instructions and Z-tree files for replication of experiments (both online and lab)
