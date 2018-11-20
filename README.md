@@ -2,8 +2,8 @@
 
 ## Contents:
 1. Code - Instructions and experimental code to replicate the experiments (both online and lab)
-   * Lab code: includes z-Tree scripts and writen instructions that were read out load.
-   * Online code: 
+   * Lab code includes: z-Tree scripts and writen instructions that were read out load.
+   * Online code includes:
    a) Nodegame script 
    b) PDF of the instructions that were presented on screen
    c) Authentification script used to limite the re-entry of participants (each subject could particopante only once). 
