@@ -4,9 +4,9 @@
 1. Code - Instructions and experimental code to replicate the experiments (both online and lab)
    * Lab code: includes z-Tree scripts and writen instructions that were read out load.
    * Online code: 
-    ** Nodegame script 
-    ** PDF of the instructions that were presented on screen
-    ** Authentification script used to limite the re-entry of participants (each subject could particopante only once). 
+    + Nodegame script 
+    + PDF of the instructions that were presented on screen
+    + Authentification script used to limite the re-entry of participants (each subject could particopante only once). 
 2. Data - CSV and raw exports for each of the four separate experiments
 3. R-scripts - All R code for generation of statistics, tables and figures. Key files:
    * replication.R - main replication file
