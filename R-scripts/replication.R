@@ -39,7 +39,7 @@ source("dist_diff.R")
 rm(list=ls())
 setwd("/Users/tomrobinson/OneDrive/CESS/Heterogeneous")
 #setwd("C:/Users/Denise Laroze Prehn/Dropbox/CESS-Santiago/Archive/Modes/Tax Cheating Qualtrics Online Experiment")
-#setwd("C:/Users/Denise Laroze P/Dropbox/CESS-Santiago/Archive/Modes/Tax Cheating Qualtrics Online Experiment")
+setwd("C:/Users/Profesor/Dropbox/CESS-Santiago/Archive/Modes/Tax Cheating Qualtrics Online Experiment")
 
 mturk.ds<-read.csv("data/Mturk_DS_Sept2017.csv") #
 
@@ -205,6 +205,7 @@ names(baseline.uk)[names(baseline.uk)=="safechoices"] <- "risk.pref"
 names(baseline.uk)[names(baseline.uk)=="profitret"] <- "prelimGain"
 names(baseline.uk)[names(baseline.uk)=="offerdg"] <- "DictGive"
 names(baseline.uk)[names(baseline.uk)=="Gender_lab"] <- "Gender"
+names(baseline.uk)[names(baseline.uk)=="auditrate"] <- "auditRate"
 
 names(lab.online.sync)[names(lab.online.sync)=="age"] <- "Age"
 names(lab.online.sync)[names(lab.online.sync)=="gender"] <- "Gender"
@@ -217,16 +218,17 @@ names(cess.online.panel)[names(cess.online.panel)=="age"] <- "Age"
 names(cess.online.panel)[names(cess.online.panel)=="gender"] <- "Gender"
 names(cess.online.panel)[names(cess.online.panel)=="taxRate"] <- "taxrate"
 
-names(cess.online.stgo)[names(cess.online.stgo)=="gender"] <- "Gender"
-names(cess.online.stgo)[names(cess.online.stgo)=="taxRate"] <- "taxrate"
+#names(cess.online.stgo)[names(cess.online.stgo)=="gender"] <- "Gender"
+#names(cess.online.stgo)[names(cess.online.stgo)=="taxRate"] <- "taxrate"
 
 # Call consistency analysis here
 # NB: WON'T WORK UNTIL THIS IS CALLED, AS RISK_SWI... INTEG... VARS NOT IN ORIGINAL DATA
 
 
 vars<-c( "muID", "ncorrectret" ,"Gender", "Age", "DictGive" ,"DictGive.normal", "total.integrity", "total.integrity.normal", 
-         "risk.pref.normal", "risk.pref", "prelimGain", "report.rate", "treat", "taxrate", "round"
-)
+         "risk.pref.normal", "risk.pref", "prelimGain", "report.rate", "treat", "taxrate", "round" , "auditRate")
+
+
 o.sync<-lab.online.sync[, vars]
 o.sync$sample<-"Online Lab"
 b.s<-baseline.uk[, vars]
@@ -727,14 +729,17 @@ ggsave(figure, filename = "banded_test_all_vs_mturk.png", device = "png", height
 #### Appendix Tables ####
 
 ## Table A1
-                               
+
+p.data<-p.data[!is.na(p.data$auditRate),]
+p.data$auditRate[p.data$auditRate==20]<- 0.2                               
 sum.table<-ddply(p.data, c("sample"), summarize,
                  DG="Yes",
                  Risk="Yes",
                  auditrate=as.character(list(unique(auditRate))),
                  taxrate=as.character(list(unique(taxrate))),
                  m.report = mean(report.rate, na.rm=T),
-                 n = length(unique(muID))
+                 n = length(unique(muID)),
+                 n_response = length(report.rate)
                  )
 sum.table
 
@@ -751,6 +756,8 @@ sum.table[place, "Risk"]<-"Yes"
 sum.table[place, "auditrate"]<-as.character(list(unique(p.data$auditRate)))
 sum.table[place, "taxrate"]<-as.character(list(unique(p.data$taxrate)))
 sum.table[place, "m.report"]<-mean(p.data$report.rate, na.rm=T)
+sum.table[place, "n_response"]<-length(p.data$report.rate)
+
 
 gender<-prop.table(table (p.data$Gender))
 sum.table[place, "pc.female"]<-gender[1]
@@ -760,7 +767,7 @@ n<-length(unique(p.data$muID))
 sum.table[place, "n"]<-n
 
 
-names(sum.table) <- c('Mode','DG', 'Risk' ,'Audit Rate' ,"Tax Rate", "Report Rate" ,"\\# Subjects", "\\% Female", "\\% Male" )
+names(sum.table) <- c('Mode','DG', 'Risk' ,'Audit Rate' ,"Tax Rate", "Report Rate" ,"\\# Subjects", "\\# Obs", "\\% Female", "\\% Male" )
 
 xt<-xtable(sum.table)
 print(xt, type="latex", file=("R-scripts/summary_table.tex"), floating=FALSE, include.rownames=FALSE)
