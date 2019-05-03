@@ -16,16 +16,22 @@ Experiments should be designed to facilitate the detection of experimental measu
    c) Authentification script used to limite the re-entry of participants (each subject could particopante only once). 
 2. Data - CSV and raw exports for each of the four separate experiments
 3. R-scripts - All R code for generation of statistics, tables and figures. Key files:
-   * replication.R - main replication file
-   * dist_diff.R - function (sourced in replication.R) to calculate bootstrapped estimates of differences within CATE bands
+   * main_replication.R - main replication file
+   * simulation_replication.R -  replication material for Figure 1
+   * indian_vignette_replication.R - replication material for experimental results incl. Tables 6, B4, and B5
+   * dist_diff.R - function (sourced into main_replication.R) to calculate bootstrapped estimates of differences within CATE bands
 4. Screenshots - of lab and online experiments
 
 ## Replication R code:
 
-The structure of the replication.R file is as follows:
-1. Code to format and standardise the raw data extracts from each experimental mode
-2. Descriptive statistics code
-3. All tables within the main body of text
-4. All figures within the main body of text
-5. All appendix tables
-6. All appendix figures
+The structure of the main_replication.R file is as follows:
+0. Pre-requisites to run the file (packages, seed and graph colours)
+1. Functions - function definitions used at various points in the code
+2. Data Management - Code to format and standardise the raw data extracts from each experimental mode
+3. Descriptive statistics code
+4. All tables within the main body of text
+5. All figures within the main body of text
+6. All appendix tables
+7. All appendix figures
+
+N.B. Substantive analysis code is included by Table/Figure reference.
