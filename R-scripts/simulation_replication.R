@@ -106,7 +106,8 @@ schedule <- expand.grid(p1  = seq(0,1,0.05),
 ## Figure 1
 
 ggplot(schedule, aes(x=p1, y = p2, color = multi_error)) +
-  facet_wrap(u ~., ncol = 3) +
+  facet_wrap(u ~., ncol = 3,
+            labeller = label_bquote(mu == .(u))) +
   geom_point(position = "jitter") + 
   scale_color_gradient2(low = "darkgreen", mid = "white", high = "darkred") +
   theme_minimal() +
