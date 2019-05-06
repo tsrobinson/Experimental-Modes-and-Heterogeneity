@@ -25,6 +25,7 @@ Experiments should be designed to facilitate the detection of experimental measu
 ## Replication R code:
 
 The structure of the main_replication.R file is as follows:
+
 0. Pre-requisites to run the file (packages, seed and graph colours)
 1. Functions - function definitions used at various points in the code
 2. Data Management - Code to format and standardise the raw data extracts from each experimental mode
