@@ -1,0 +1,206 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,Q2,Q2_3_TEXT,Q67,QTE1_1,QTE2_1,QTE3_1,QTE4_1,Q314
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,What is your gender? - Selected Choice,What is your gender? - Other - Text,Please enter your birth year,The Indian Election Commission has announced that the coming Indian elections will continue to use electronic voting machines. - How truthful is this statement?,"The Indian Election Commission has warned that there is likely to be extensive election fraud in the upcoming Lok Sabha elections because of the use of electronic voting machines, that can be easily hacked. - How truthful is this statement?","The Indian Election Commission has said all polling booths will have the voter-verified paper audit trail facility this election, a system in which voters can see on paper whether the machine has registered the same vote as the button they pressed. This provides an additional layer of security and reduces the possibility of massive electoral fraud. - How truthful is this statement?","The Indian Election Commission has been ordered to discontinue the use of voter-verified paper audit trail facility this election, an old system in which voters could see on paper whether the machine had registered the same vote as the button they had pressed. Opposition parties have alleged that the BJP is behind this change and that not using paper trail will lead to massive electoral fraud. - How truthful is this statement?","On the previous page, which organisation or institution was mentioned in the statement we asked you to read?"
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""QID2""}","{""ImportId"":""QID2_3_TEXT""}","{""ImportId"":""QID66""}","{""ImportId"":""QID309_1""}","{""ImportId"":""QID311_1""}","{""ImportId"":""QID312_1""}","{""ImportId"":""QID313_1""}","{""ImportId"":""QID314""}"
+26/04/2019 03:23,26/04/2019 03:24,IP Address,100,78,TRUE,26/04/2019 03:24,Female,,1990,,7,,,"The Indian national government,The Indian Supreme Court,The Indian Electoral Commission"
+26/04/2019 03:23,26/04/2019 03:25,IP Address,100,91,TRUE,26/04/2019 03:25,Male,,1991,,8,,,The Indian national government
+26/04/2019 03:23,26/04/2019 03:25,IP Address,100,95,TRUE,26/04/2019 03:25,Male,,1992,,7,,,The Indian national government
+26/04/2019 03:24,26/04/2019 03:25,IP Address,100,89,TRUE,26/04/2019 03:25,Female,,1997,,,,8,"The Indian Supreme Court,The University of Delhi"
+26/04/2019 03:24,26/04/2019 03:25,IP Address,100,71,TRUE,26/04/2019 03:25,Male,,2000,,,9,,"The Indian Electoral Commission,The Indian Army"
+26/04/2019 03:24,26/04/2019 03:26,IP Address,100,80,TRUE,26/04/2019 03:26,Male,,1993,,,,10,"The Indian Supreme Court,The Indian Army"
+26/04/2019 03:25,26/04/2019 03:26,IP Address,100,71,TRUE,26/04/2019 03:26,Female,,1991,8,,,,The Indian national government
+26/04/2019 03:24,26/04/2019 03:26,IP Address,100,96,TRUE,26/04/2019 03:26,Female,,1992,,,8,,"The Indian national government,The Indian Electoral Commission,The Indian Army"
+26/04/2019 03:25,26/04/2019 03:26,IP Address,100,61,TRUE,26/04/2019 03:26,Male,,1990,,,,7,"The Indian Supreme Court,The Indian Electoral Commission,The Indian Army,The University of Delhi"
+26/04/2019 03:25,26/04/2019 03:26,IP Address,100,83,TRUE,26/04/2019 03:26,Male,,1988,,,9,,The Indian Army
+26/04/2019 03:24,26/04/2019 03:26,IP Address,100,130,TRUE,26/04/2019 03:26,Female,,1991,,,7,,The University of Delhi
+26/04/2019 03:25,26/04/2019 03:26,IP Address,100,85,TRUE,26/04/2019 03:26,Female,,1996,7,,,,The Indian Army
+26/04/2019 03:25,26/04/2019 03:26,IP Address,100,95,TRUE,26/04/2019 03:26,Male,,1990,,9,,,The Indian Electoral Commission
+26/04/2019 03:25,26/04/2019 03:26,IP Address,100,96,TRUE,26/04/2019 03:26,Female,,1992,,,9,,The Indian Electoral Commission
+26/04/2019 03:25,26/04/2019 03:26,IP Address,100,95,TRUE,26/04/2019 03:26,Male,,1991,,,,8,"The Indian Supreme Court,The Indian Army"
+26/04/2019 03:25,26/04/2019 03:27,IP Address,100,95,TRUE,26/04/2019 03:27,Male,,1996,,9,,,The Indian national government
+26/04/2019 03:25,26/04/2019 03:27,IP Address,100,99,TRUE,26/04/2019 03:27,Male,,1993,,,10,,The Indian Army
+26/04/2019 03:25,26/04/2019 03:27,IP Address,100,121,TRUE,26/04/2019 03:27,Male,,1991,,,10,,"The Indian Supreme Court,The University of Delhi"
+26/04/2019 03:26,26/04/2019 03:27,IP Address,100,83,TRUE,26/04/2019 03:27,Male,,1922,8,,,,The Indian Electoral Commission
+26/04/2019 03:26,26/04/2019 03:27,IP Address,100,93,TRUE,26/04/2019 03:27,Male,,1992,8,,,,The Indian Electoral Commission
+26/04/2019 03:25,26/04/2019 03:27,IP Address,100,132,TRUE,26/04/2019 03:27,Male,,1994,9,,,,The Indian national government
+26/04/2019 03:25,26/04/2019 03:27,IP Address,100,151,TRUE,26/04/2019 03:27,Male,,1990,,,,8,The Indian Electoral Commission
+26/04/2019 03:24,26/04/2019 03:27,IP Address,100,216,TRUE,26/04/2019 03:27,Male,,1999,9,,,,The Indian Electoral Commission
+26/04/2019 03:24,26/04/2019 03:27,IP Address,100,183,TRUE,26/04/2019 03:27,Male,,1982,,,9,,The Indian Electoral Commission
+26/04/2019 03:24,26/04/2019 03:27,IP Address,100,206,TRUE,26/04/2019 03:27,Female,,1987,,,9,,The Indian Electoral Commission
+26/04/2019 03:25,26/04/2019 03:27,IP Address,100,133,TRUE,26/04/2019 03:27,Male,,1991,,,10,,The Indian national government
+26/04/2019 03:24,26/04/2019 03:28,IP Address,100,189,TRUE,26/04/2019 03:28,Male,,1990,8,,,,The Indian Electoral Commission
+26/04/2019 03:27,26/04/2019 03:28,IP Address,100,57,TRUE,26/04/2019 03:28,Male,,1992,,,,8,The Indian national government
+26/04/2019 03:24,26/04/2019 03:28,IP Address,100,192,TRUE,26/04/2019 03:28,Male,,1991,,,9,,The Indian Electoral Commission
+26/04/2019 03:24,26/04/2019 03:28,IP Address,100,198,TRUE,26/04/2019 03:28,Female,,1989,,,,0,The Indian Electoral Commission
+26/04/2019 03:26,26/04/2019 03:28,IP Address,100,98,TRUE,26/04/2019 03:28,Male,,1990,,9,,,The Indian Electoral Commission
+26/04/2019 03:26,26/04/2019 03:28,IP Address,100,134,TRUE,26/04/2019 03:28,Female,,1991,,7,,,The Indian national government
+26/04/2019 03:25,26/04/2019 03:28,IP Address,100,149,TRUE,26/04/2019 03:28,Female,,1997,,,,8,The Indian Electoral Commission
+26/04/2019 03:26,26/04/2019 03:28,IP Address,100,111,TRUE,26/04/2019 03:28,Male,,1991,,,9,,The Indian Electoral Commission
+26/04/2019 03:27,26/04/2019 03:28,IP Address,100,74,TRUE,26/04/2019 03:28,Male,,1996,,,9,,The Indian Army
+26/04/2019 03:25,26/04/2019 03:28,IP Address,100,200,TRUE,26/04/2019 03:28,Male,,1987,,,,10,The Indian national government
+26/04/2019 03:27,26/04/2019 03:28,IP Address,100,65,TRUE,26/04/2019 03:28,Female,,1997,,,8,,"The Indian Supreme Court,The University of Delhi"
+26/04/2019 03:26,26/04/2019 03:28,IP Address,100,119,TRUE,26/04/2019 03:28,Male,,1988,,,9,,"The Indian Electoral Commission,The Indian Army"
+26/04/2019 03:27,26/04/2019 03:29,IP Address,100,75,TRUE,26/04/2019 03:29,Male,,1992,,,9,,The Indian national government
+26/04/2019 03:27,26/04/2019 03:29,IP Address,100,99,TRUE,26/04/2019 03:29,Female,,1986,,7,,,"The Indian national government,The Indian Supreme Court,The University of Delhi"
+26/04/2019 03:25,26/04/2019 03:29,IP Address,100,234,TRUE,26/04/2019 03:29,Female,,1990,,0,,,The Indian Electoral Commission
+26/04/2019 03:27,26/04/2019 03:29,IP Address,100,97,TRUE,26/04/2019 03:29,Male,,1993,,,10,,The Indian Supreme Court
+26/04/2019 03:28,26/04/2019 03:29,IP Address,100,61,TRUE,26/04/2019 03:29,Male,,1991,,,,8,The Indian national government
+26/04/2019 03:28,26/04/2019 03:29,IP Address,100,97,TRUE,26/04/2019 03:29,Male,,1994,,,,8,"The Indian Army,The University of Delhi"
+26/04/2019 03:28,26/04/2019 03:29,IP Address,100,72,TRUE,26/04/2019 03:29,Female,,1992,,,,9,The Indian Electoral Commission
+26/04/2019 03:27,26/04/2019 03:29,IP Address,100,152,TRUE,26/04/2019 03:29,Male,,1980,,,,6,The Indian Army
+26/04/2019 03:28,26/04/2019 03:29,IP Address,100,74,TRUE,26/04/2019 03:29,Male,,1992,,,8,,The Indian national government
+26/04/2019 03:28,26/04/2019 03:30,IP Address,100,122,TRUE,26/04/2019 03:30,Female,,1995,,9,,,The Indian Electoral Commission
+26/04/2019 03:23,26/04/2019 03:30,IP Address,100,370,TRUE,26/04/2019 03:30,Male,,1990,,,,7,The Indian Electoral Commission
+26/04/2019 03:29,26/04/2019 03:30,IP Address,100,71,TRUE,26/04/2019 03:30,Male,,1990,6,,,,"The Indian national government,The Indian Supreme Court,The Indian Electoral Commission,The University of Delhi"
+26/04/2019 03:29,26/04/2019 03:30,IP Address,100,62,TRUE,26/04/2019 03:30,Female,,1997,,,8,,"The Indian national government,The Indian Supreme Court,The Indian Army"
+26/04/2019 03:27,26/04/2019 03:30,IP Address,100,154,TRUE,26/04/2019 03:30,Male,,1996,,,8,,"The Indian Supreme Court,The Indian Electoral Commission"
+26/04/2019 03:28,26/04/2019 03:30,IP Address,100,133,TRUE,26/04/2019 03:30,Male,,1991,,,10,,"The Indian national government,The Indian Electoral Commission"
+26/04/2019 03:29,26/04/2019 03:30,IP Address,100,84,TRUE,26/04/2019 03:30,Male,,1990,9,,,,The Indian Electoral Commission
+26/04/2019 03:28,26/04/2019 03:30,IP Address,100,99,TRUE,26/04/2019 03:30,Male,,1995,,,8,,"The Indian Electoral Commission,The University of Delhi"
+26/04/2019 03:26,26/04/2019 03:30,IP Address,100,230,TRUE,26/04/2019 03:30,Female,,2000,,9,,,The Indian Electoral Commission
+26/04/2019 03:28,26/04/2019 03:30,IP Address,100,152,TRUE,26/04/2019 03:30,Female,,1989,,,10,,The Indian Electoral Commission
+26/04/2019 03:25,26/04/2019 03:30,IP Address,100,341,TRUE,26/04/2019 03:30,Male,,1991,,,9,,The Indian Electoral Commission
+26/04/2019 03:28,26/04/2019 03:30,IP Address,100,128,TRUE,26/04/2019 03:30,Female,,1989,,,,9,The Indian national government
+26/04/2019 03:25,26/04/2019 03:30,IP Address,100,309,TRUE,26/04/2019 03:30,Female,,1992,,,5,,The Indian Electoral Commission
+26/04/2019 03:29,26/04/2019 03:30,IP Address,100,108,TRUE,26/04/2019 03:31,Male,,1997,,,8,,The Indian Army
+26/04/2019 03:29,26/04/2019 03:31,IP Address,100,76,TRUE,26/04/2019 03:31,Male,,1964,,,,8,The Indian national government
+26/04/2019 03:28,26/04/2019 03:31,IP Address,100,161,TRUE,26/04/2019 03:31,Male,,1978,10,,,,The Indian Electoral Commission
+26/04/2019 03:30,26/04/2019 03:31,IP Address,100,65,TRUE,26/04/2019 03:31,Male,,1998,,,,9,The Indian national government
+26/04/2019 03:29,26/04/2019 03:31,IP Address,100,135,TRUE,26/04/2019 03:31,Female,,1988,,7,,,The Indian Electoral Commission
+26/04/2019 03:25,26/04/2019 03:31,IP Address,100,379,TRUE,26/04/2019 03:31,Female,,1988,,,10,,The Indian Electoral Commission
+26/04/2019 03:29,26/04/2019 03:31,IP Address,100,131,TRUE,26/04/2019 03:31,Male,,1969,,,9,,"The Indian national government,The Indian Supreme Court,The University of Delhi"
+26/04/2019 03:29,26/04/2019 03:31,IP Address,100,128,TRUE,26/04/2019 03:31,Female,,1991,7,,,,The Indian Army
+26/04/2019 03:27,26/04/2019 03:31,IP Address,100,282,TRUE,26/04/2019 03:31,Female,,1991,,9,,,"The Indian national government,The Indian Army"
+26/04/2019 03:29,26/04/2019 03:31,IP Address,100,169,TRUE,26/04/2019 03:31,Female,,1993,,8,,,The Indian Electoral Commission
+26/04/2019 03:30,26/04/2019 03:31,IP Address,100,59,TRUE,26/04/2019 03:31,Female,,1989,,8,,,"The Indian Supreme Court,The Indian Electoral Commission,The Indian Army"
+26/04/2019 03:24,26/04/2019 03:32,IP Address,100,481,TRUE,26/04/2019 03:32,Male,,1991,9,,,,"The Indian national government,The Indian Supreme Court,The Indian Electoral Commission,The Indian Army"
+26/04/2019 03:30,26/04/2019 03:32,IP Address,100,105,TRUE,26/04/2019 03:32,Female,,1987,9,,,,The Indian Electoral Commission
+26/04/2019 03:30,26/04/2019 03:32,IP Address,100,98,TRUE,26/04/2019 03:32,Female,,1993,,8,,,The Indian Electoral Commission
+26/04/2019 03:28,26/04/2019 03:32,IP Address,100,227,TRUE,26/04/2019 03:32,Male,,1991,,,,9,The Indian Electoral Commission
+26/04/2019 03:30,26/04/2019 03:32,IP Address,100,141,TRUE,26/04/2019 03:32,Male,,1992,8,,,,"The Indian national government,The Indian Army"
+26/04/2019 03:31,26/04/2019 03:32,IP Address,100,80,TRUE,26/04/2019 03:32,Male,,1990,,9,,,The Indian Electoral Commission
+26/04/2019 03:29,26/04/2019 03:32,IP Address,100,229,TRUE,26/04/2019 03:33,Male,,1992,8,,,,The Indian Electoral Commission
+26/04/2019 03:25,26/04/2019 03:33,IP Address,100,438,TRUE,26/04/2019 03:33,Female,,1991,,,,7,The Indian Electoral Commission
+26/04/2019 03:30,26/04/2019 03:33,IP Address,100,166,TRUE,26/04/2019 03:33,Male,,1984,,0,,,The Indian Electoral Commission
+26/04/2019 03:31,26/04/2019 03:33,IP Address,100,98,TRUE,26/04/2019 03:33,Male,,1991,,,,9,The Indian national government
+26/04/2019 03:32,26/04/2019 03:33,IP Address,100,69,TRUE,26/04/2019 03:33,Male,,1992,7,,,,The Indian national government
+26/04/2019 03:31,26/04/2019 03:33,IP Address,100,107,TRUE,26/04/2019 03:33,Female,,1992,,9,,,The Indian national government
+26/04/2019 03:32,26/04/2019 03:34,IP Address,100,107,TRUE,26/04/2019 03:34,Male,,1991,,9,,,The Indian Electoral Commission
+26/04/2019 03:32,26/04/2019 03:34,IP Address,100,107,TRUE,26/04/2019 03:34,Male,,1979,,0,,,The Indian Electoral Commission
+26/04/2019 03:32,26/04/2019 03:34,IP Address,100,83,TRUE,26/04/2019 03:34,Male,,1988,8,,,,"The Indian national government,The Indian Supreme Court,The Indian Electoral Commission"
+26/04/2019 03:33,26/04/2019 03:34,IP Address,100,67,TRUE,26/04/2019 03:34,Male,,1994,,,,8,"The Indian national government,The Indian Electoral Commission,The Indian Army"
+26/04/2019 03:33,26/04/2019 03:35,IP Address,100,125,TRUE,26/04/2019 03:35,Female,,1992,,,,8,The Indian national government
+26/04/2019 03:33,26/04/2019 03:35,IP Address,100,149,TRUE,26/04/2019 03:35,Male,,1992,,,8,,The Indian Electoral Commission
+26/04/2019 03:27,26/04/2019 03:35,IP Address,100,484,TRUE,26/04/2019 03:35,Male,,1992,9,,,,The Indian Electoral Commission
+26/04/2019 03:32,26/04/2019 03:36,IP Address,100,206,TRUE,26/04/2019 03:36,Male,,1985,,,8,,The Indian Electoral Commission
+26/04/2019 03:34,26/04/2019 03:36,IP Address,100,116,TRUE,26/04/2019 03:36,Female,,1992,,9,,,The Indian Electoral Commission
+26/04/2019 03:34,26/04/2019 03:36,IP Address,100,105,TRUE,26/04/2019 03:36,Male,,1982,,,7,,The Indian Electoral Commission
+26/04/2019 03:29,26/04/2019 03:36,IP Address,100,394,TRUE,26/04/2019 03:36,Male,,1991,,,6,,The Indian Electoral Commission
+26/04/2019 03:31,26/04/2019 03:36,IP Address,100,308,TRUE,26/04/2019 03:36,Male,,1991,,,10,,"The Indian national government,The Indian Army"
+26/04/2019 03:32,26/04/2019 03:36,IP Address,100,231,TRUE,26/04/2019 03:36,Male,,1985,9,,,,The Indian Electoral Commission
+26/04/2019 03:30,26/04/2019 03:36,IP Address,100,358,TRUE,26/04/2019 03:36,Male,,1991,,,,9,The Indian national government
+26/04/2019 03:34,26/04/2019 03:36,IP Address,100,109,TRUE,26/04/2019 03:36,Female,,1978,,0,,,The Indian Electoral Commission
+26/04/2019 03:30,26/04/2019 03:36,IP Address,100,372,TRUE,26/04/2019 03:36,Male,,1995,,0,,,The Indian Electoral Commission
+26/04/2019 03:34,26/04/2019 03:36,IP Address,100,112,TRUE,26/04/2019 03:36,Male,,1995,,,,7,The Indian Electoral Commission
+26/04/2019 03:30,26/04/2019 03:36,IP Address,100,373,TRUE,26/04/2019 03:36,Female,,1990,,,,6,"The Indian national government,The Indian Supreme Court,The Indian Army"
+26/04/2019 03:33,26/04/2019 03:36,IP Address,100,219,TRUE,26/04/2019 03:36,Female,,1988,,10,,,The Indian Electoral Commission
+26/04/2019 03:34,26/04/2019 03:36,IP Address,100,143,TRUE,26/04/2019 03:36,Male,,1992,,,8,,"The Indian national government,The Indian Electoral Commission"
+26/04/2019 03:35,26/04/2019 03:37,IP Address,100,108,TRUE,26/04/2019 03:37,Male,,1990,,,,6,"The Indian national government,The Indian Supreme Court,The Indian Army,The University of Delhi"
+26/04/2019 03:34,26/04/2019 03:37,IP Address,100,189,TRUE,26/04/2019 03:37,Female,,1992,,,8,,"The Indian national government,The Indian Electoral Commission"
+26/04/2019 03:36,26/04/2019 03:37,IP Address,100,79,TRUE,26/04/2019 03:37,Male,,2001,,,10,,The Indian national government
+26/04/2019 03:34,26/04/2019 03:37,IP Address,100,181,TRUE,26/04/2019 03:37,Male,,1990,,,,1,The Indian Electoral Commission
+26/04/2019 03:23,26/04/2019 03:38,IP Address,100,856,TRUE,26/04/2019 03:38,Male,,1990,,,,6,The Indian Electoral Commission
+26/04/2019 03:35,26/04/2019 03:38,IP Address,100,138,TRUE,26/04/2019 03:38,Female,,1996,,,9,,"The Indian national government,The Indian Army"
+26/04/2019 03:25,26/04/2019 03:38,IP Address,100,770,TRUE,26/04/2019 03:38,Female,,1997,,,7,,The Indian national government
+26/04/2019 03:35,26/04/2019 03:38,IP Address,100,190,TRUE,26/04/2019 03:38,Male,,1994,,,5,,The Indian Supreme Court
+26/04/2019 03:32,26/04/2019 03:39,IP Address,100,418,TRUE,26/04/2019 03:39,Female,,1991,8,,,,The Indian Electoral Commission
+26/04/2019 03:24,26/04/2019 03:39,IP Address,100,851,TRUE,26/04/2019 03:39,Male,,1991,,,8,,The Indian Electoral Commission
+26/04/2019 03:36,26/04/2019 03:39,IP Address,100,157,TRUE,26/04/2019 03:39,Male,,1991,,,,,The Indian Electoral Commission
+26/04/2019 03:37,26/04/2019 03:39,IP Address,100,118,TRUE,26/04/2019 03:39,Male,,1984,,9,,,The Indian Electoral Commission
+26/04/2019 03:38,26/04/2019 03:39,IP Address,100,73,TRUE,26/04/2019 03:39,Male,,1993,,8,,,"The Indian Supreme Court,The University of Delhi"
+26/04/2019 03:36,26/04/2019 03:39,IP Address,100,186,TRUE,26/04/2019 03:39,Female,,1977,,7,,,The Indian Army
+26/04/2019 03:33,26/04/2019 03:39,IP Address,100,369,TRUE,26/04/2019 03:39,Male,,1991,8,,,,The Indian Electoral Commission
+26/04/2019 03:37,26/04/2019 03:39,IP Address,100,93,TRUE,26/04/2019 03:39,Female,,1992,,,9,,The Indian Electoral Commission
+26/04/2019 03:37,26/04/2019 03:39,IP Address,100,105,TRUE,26/04/2019 03:39,Male,,1989,9,,,,The Indian Electoral Commission
+26/04/2019 03:31,26/04/2019 03:39,IP Address,100,475,TRUE,26/04/2019 03:39,Male,,1992,,,,6,The Indian Electoral Commission
+26/04/2019 03:38,26/04/2019 03:39,IP Address,100,95,TRUE,26/04/2019 03:39,Male,,1992,9,,,,The Indian national government
+26/04/2019 03:38,26/04/2019 03:39,IP Address,100,72,TRUE,26/04/2019 03:39,Male,,2004,,,10,,The Indian national government
+26/04/2019 03:31,26/04/2019 03:39,IP Address,100,478,TRUE,26/04/2019 03:39,Male,,1993,,,6,,The Indian Electoral Commission
+26/04/2019 03:37,26/04/2019 03:39,IP Address,100,126,TRUE,26/04/2019 03:39,Male,,1991,9,,,,"The Indian national government,The Indian Army"
+26/04/2019 03:34,26/04/2019 03:40,IP Address,100,308,TRUE,26/04/2019 03:40,Male,,1985,10,,,,The Indian Electoral Commission
+26/04/2019 03:37,26/04/2019 03:40,IP Address,100,150,TRUE,26/04/2019 03:40,Male,,1992,,,,,The Indian Electoral Commission
+26/04/2019 03:37,26/04/2019 03:40,IP Address,100,175,TRUE,26/04/2019 03:40,Female,,1989,,6,,,The Indian national government
+26/04/2019 03:39,26/04/2019 03:40,IP Address,100,91,TRUE,26/04/2019 03:40,Female,,1992,,7,,,The Indian national government
+26/04/2019 03:39,26/04/2019 03:40,IP Address,100,94,TRUE,26/04/2019 03:40,Female,,1990,,,,,"The Indian Supreme Court,The Indian Electoral Commission,The Indian Army"
+26/04/2019 03:38,26/04/2019 03:40,IP Address,100,115,TRUE,26/04/2019 03:40,Female,,1983,10,,,,The Indian Electoral Commission
+26/04/2019 03:38,26/04/2019 03:40,IP Address,100,169,TRUE,26/04/2019 03:41,Female,,1996,,,,9,"The Indian Electoral Commission,The University of Delhi"
+26/04/2019 03:40,26/04/2019 03:41,IP Address,100,66,TRUE,26/04/2019 03:41,Male,,1996,7,,,,The Indian national government
+26/04/2019 03:40,26/04/2019 03:41,IP Address,100,68,TRUE,26/04/2019 03:41,Male,,1996,,,,9,The Indian Electoral Commission
+26/04/2019 03:40,26/04/2019 03:41,IP Address,100,76,TRUE,26/04/2019 03:41,Male,,1989,,9,,,"The Indian Supreme Court,The Indian Electoral Commission"
+26/04/2019 03:40,26/04/2019 03:42,IP Address,100,95,TRUE,26/04/2019 03:42,Female,,1987,7,,,,"The Indian national government,The University of Delhi"
+26/04/2019 03:39,26/04/2019 03:42,IP Address,100,152,TRUE,26/04/2019 03:42,Female,,1988,,,,0,The Indian Electoral Commission
+26/04/2019 03:37,26/04/2019 03:42,IP Address,100,284,TRUE,26/04/2019 03:42,Male,,1991,7,,,,The Indian Electoral Commission
+26/04/2019 03:25,26/04/2019 03:42,IP Address,100,1053,TRUE,26/04/2019 03:42,Male,,1993,,,8,,The Indian Electoral Commission
+26/04/2019 03:39,26/04/2019 03:42,IP Address,100,183,TRUE,26/04/2019 03:42,Female,,1979,,,7,,The Indian national government
+26/04/2019 03:41,26/04/2019 03:42,IP Address,100,92,TRUE,26/04/2019 03:42,Female,,1995,,,8,,The Indian Electoral Commission
+26/04/2019 03:38,26/04/2019 03:43,IP Address,100,258,TRUE,26/04/2019 03:43,Female,,1993,,,10,,The Indian Electoral Commission
+26/04/2019 03:41,26/04/2019 03:43,IP Address,100,121,TRUE,26/04/2019 03:43,Male,,1993,7,,,,The Indian Electoral Commission
+26/04/2019 03:42,26/04/2019 03:43,IP Address,100,60,TRUE,26/04/2019 03:43,Male,,1996,,,,9,The Indian national government
+26/04/2019 03:25,26/04/2019 03:44,IP Address,100,1154,TRUE,26/04/2019 03:44,Male,,1991,,9,,,The Indian Electoral Commission
+26/04/2019 03:41,26/04/2019 03:44,IP Address,100,153,TRUE,26/04/2019 03:44,Female,,1983,9,,,,The Indian Electoral Commission
+26/04/2019 03:40,26/04/2019 03:44,IP Address,100,246,TRUE,26/04/2019 03:44,Male,,1996,9,,,,The Indian national government
+26/04/2019 03:41,26/04/2019 03:44,IP Address,100,196,TRUE,26/04/2019 03:44,Male,,2000,,,9,,The Indian Electoral Commission
+26/04/2019 03:43,26/04/2019 03:44,IP Address,100,72,TRUE,26/04/2019 03:44,Female,,1995,,,,9,The Indian Electoral Commission
+26/04/2019 03:42,26/04/2019 03:44,IP Address,100,129,TRUE,26/04/2019 03:44,Male,,1991,,,9,,"The Indian national government,The Indian Electoral Commission,The Indian Army"
+26/04/2019 03:44,26/04/2019 03:45,IP Address,100,59,TRUE,26/04/2019 03:45,Male,,1993,,8,,,The Indian Electoral Commission
+26/04/2019 03:31,26/04/2019 03:45,IP Address,100,814,TRUE,26/04/2019 03:45,Male,,1991,7,,,,The Indian Electoral Commission
+26/04/2019 03:42,26/04/2019 03:45,IP Address,100,204,TRUE,26/04/2019 03:45,Female,,1972,,,,7,The Indian Electoral Commission
+26/04/2019 03:40,26/04/2019 03:46,IP Address,100,336,TRUE,26/04/2019 03:46,Male,,1981,,,5,,The Indian Army
+26/04/2019 03:25,26/04/2019 03:46,IP Address,100,1288,TRUE,26/04/2019 03:46,Male,,1991,9,,,,The Indian Electoral Commission
+26/04/2019 03:43,26/04/2019 03:46,IP Address,100,168,TRUE,26/04/2019 03:46,Male,,1991,,,10,,The Indian Electoral Commission
+26/04/2019 03:42,26/04/2019 03:46,IP Address,100,230,TRUE,26/04/2019 03:46,Male,,1991,8,,,,"The Indian national government,The Indian Electoral Commission"
+26/04/2019 03:25,26/04/2019 03:46,IP Address,100,1298,TRUE,26/04/2019 03:46,Male,,1991,8,,,,The Indian Electoral Commission
+26/04/2019 03:44,26/04/2019 03:46,IP Address,100,141,TRUE,26/04/2019 03:46,Female,,1997,,,7,,The Indian Electoral Commission
+26/04/2019 03:45,26/04/2019 03:47,IP Address,100,80,TRUE,26/04/2019 03:47,Female,,1992,8,,,,The Indian Electoral Commission
+26/04/2019 03:45,26/04/2019 03:47,IP Address,100,115,TRUE,26/04/2019 03:47,Female,,1987,,,8,,"The Indian Supreme Court,The Indian Army,The University of Delhi"
+26/04/2019 03:41,26/04/2019 03:47,IP Address,100,347,TRUE,26/04/2019 03:47,Male,,1987,10,,,,The Indian Electoral Commission
+26/04/2019 03:44,26/04/2019 03:47,IP Address,100,226,TRUE,26/04/2019 03:47,Female,,1991,,10,,,The Indian national government
+26/04/2019 03:40,26/04/2019 03:48,IP Address,100,456,TRUE,26/04/2019 03:48,Female,,1993,,,10,,The Indian Electoral Commission
+26/04/2019 03:47,26/04/2019 03:48,IP Address,100,92,TRUE,26/04/2019 03:48,Female,,1991,,,8,,The Indian national government
+26/04/2019 03:45,26/04/2019 03:49,IP Address,100,223,TRUE,26/04/2019 03:49,Female,,1975,8,,,,The Indian national government
+26/04/2019 03:24,26/04/2019 03:49,IP Address,100,1508,TRUE,26/04/2019 03:49,Male,,1990,,,10,,The Indian Electoral Commission
+26/04/2019 03:48,26/04/2019 03:50,IP Address,100,101,TRUE,26/04/2019 03:50,Female,,1996,,8,,,"The Indian Electoral Commission,The Indian Army"
+26/04/2019 03:43,26/04/2019 03:50,IP Address,100,465,TRUE,26/04/2019 03:50,Female,,1990,,,9,,The Indian Electoral Commission
+26/04/2019 03:50,26/04/2019 03:52,IP Address,100,84,TRUE,26/04/2019 03:52,Female,,1996,,,,8,The Indian Electoral Commission
+26/04/2019 03:51,26/04/2019 03:53,IP Address,100,117,TRUE,26/04/2019 03:53,Male,,1990,,,,8,The Indian Electoral Commission
+26/04/2019 03:52,26/04/2019 03:55,IP Address,100,186,TRUE,26/04/2019 03:55,Female,,1996,,8,,,The Indian Electoral Commission
+26/04/2019 03:47,26/04/2019 03:56,IP Address,100,493,TRUE,26/04/2019 03:56,Male,,2000,,9,,,The Indian national government
+26/04/2019 03:55,26/04/2019 03:56,IP Address,100,67,TRUE,26/04/2019 03:56,Male,,1995,,10,,,The Indian national government
+26/04/2019 03:54,26/04/2019 03:57,IP Address,100,163,TRUE,26/04/2019 03:57,Male,,1991,,,,6,The Indian Electoral Commission
+26/04/2019 03:53,26/04/2019 03:57,IP Address,100,264,TRUE,26/04/2019 03:57,Female,,1988,,,,8,The Indian Electoral Commission
+26/04/2019 04:00,26/04/2019 04:02,IP Address,100,142,TRUE,26/04/2019 04:02,Female,,1996,,,,7,"The Indian national government,The Indian Electoral Commission,The Indian Army"
+26/04/2019 04:01,26/04/2019 04:02,IP Address,100,82,TRUE,26/04/2019 04:02,Female,,1991,,,,7,"The Indian national government,The Indian Electoral Commission,The Indian Army"
+26/04/2019 04:02,26/04/2019 04:04,IP Address,100,147,TRUE,26/04/2019 04:04,Female,,1982,,,8,,The Indian Electoral Commission
+26/04/2019 03:49,26/04/2019 04:07,IP Address,100,1033,TRUE,26/04/2019 04:07,Female,,1991,7,,,,The Indian Electoral Commission
+26/04/2019 04:05,26/04/2019 04:08,IP Address,100,141,TRUE,26/04/2019 04:08,Female,,1997,,,8,,The Indian Electoral Commission
+26/04/2019 04:08,26/04/2019 04:09,IP Address,100,64,TRUE,26/04/2019 04:09,Female,,1995,,8,,,The Indian Electoral Commission
+26/04/2019 04:07,26/04/2019 04:09,IP Address,100,102,TRUE,26/04/2019 04:09,Male,,1990,,8,,,"The Indian national government,The Indian Electoral Commission"
+26/04/2019 04:09,26/04/2019 04:10,IP Address,100,63,TRUE,26/04/2019 04:10,Male,,1994,,9,,,The Indian Electoral Commission
+26/04/2019 03:58,26/04/2019 04:21,IP Address,100,1373,TRUE,26/04/2019 04:21,Female,,1997,,,,8,The Indian Electoral Commission
+26/04/2019 04:14,26/04/2019 04:21,IP Address,100,432,TRUE,26/04/2019 04:21,Female,,1989,,,,9,The Indian national government
+26/04/2019 04:21,26/04/2019 04:23,IP Address,100,96,TRUE,26/04/2019 04:23,Male,,1989,9,,,,The Indian Electoral Commission
+26/04/2019 04:12,26/04/2019 04:23,IP Address,100,706,TRUE,26/04/2019 04:23,Male,,1989,,,,9,The Indian Electoral Commission
+26/04/2019 04:08,26/04/2019 04:24,IP Address,100,957,TRUE,26/04/2019 04:24,Female,,1996,,,,8,"The Indian Electoral Commission,The Indian Army"
+26/04/2019 04:23,26/04/2019 04:25,IP Address,100,146,TRUE,26/04/2019 04:25,Male,,1984,7,,,,The Indian Electoral Commission
+26/04/2019 04:25,26/04/2019 04:26,IP Address,100,77,TRUE,26/04/2019 04:26,Male,,1989,,,,9,The Indian Electoral Commission
+26/04/2019 04:26,26/04/2019 04:31,IP Address,100,273,TRUE,26/04/2019 04:31,Male,,1993,,,10,,The Indian Electoral Commission
+26/04/2019 04:29,26/04/2019 04:31,IP Address,100,139,TRUE,26/04/2019 04:31,Female,,1993,,,10,,The Indian Electoral Commission
+26/04/2019 04:35,26/04/2019 04:36,IP Address,100,67,TRUE,26/04/2019 04:36,Female,,1996,,,7,,The Indian Electoral Commission
+26/04/2019 04:37,26/04/2019 04:39,IP Address,100,79,TRUE,26/04/2019 04:39,Female,,1996,,,9,,The Indian Electoral Commission
+26/04/2019 04:52,26/04/2019 04:58,IP Address,100,396,TRUE,26/04/2019 04:58,Male,,1989,,0,,,The Indian Electoral Commission
+26/04/2019 05:04,26/04/2019 05:08,IP Address,100,275,TRUE,26/04/2019 05:08,Female,,1981,10,,,,The Indian Electoral Commission
+26/04/2019 05:44,26/04/2019 05:45,IP Address,100,83,TRUE,26/04/2019 05:45,Female,,1996,,8,,,The Indian national government
+26/04/2019 05:44,26/04/2019 05:46,IP Address,100,104,TRUE,26/04/2019 05:46,Male,,1994,,2,,,The Indian Electoral Commission
+26/04/2019 05:18,26/04/2019 05:50,IP Address,100,1911,TRUE,26/04/2019 05:50,Female,,1996,8,,,,The Indian national government
+26/04/2019 06:02,26/04/2019 06:05,IP Address,100,176,TRUE,26/04/2019 06:05,Male,,1995,,10,,,The Indian Electoral Commission
+26/04/2019 06:20,26/04/2019 06:21,IP Address,100,62,TRUE,26/04/2019 06:21,Male,,1994,,,7,,The Indian Electoral Commission
+26/04/2019 11:03,26/04/2019 11:05,IP Address,100,103,TRUE,26/04/2019 11:05,Male,,1979,,,,8,"The Indian national government,The Indian Electoral Commission"

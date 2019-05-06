@@ -47,7 +47,7 @@ distdiff <- function(data,
     geom_rect(aes(ymax = Max.CATE, ymin = Min.CATE, xmax = 1, xmin = 0, fill = factor(Min.CATE))) +
     geom_point(aes(x = Mean, y = Mid.CATE)) +
     geom_vline(xintercept = 0.5, linetype = "dashed") +
-    geom_errorbarh(aes(xmax = Upper.CI, xmin = Lower.CI, y = Mid.CATE, x = Mean)) +
+    geom_errorbarh(aes(xmax = Upper.CI, xmin = Lower.CI, y = Mid.CATE)) +
     xlim(0,1) +
     labs(x = "Proportion", y = "CATE Range", title = paste0("Estimated proportion ",value," within CATE ranges")) +
     guides(fill=FALSE) +
